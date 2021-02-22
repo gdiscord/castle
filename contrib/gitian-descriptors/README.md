@@ -20,14 +20,14 @@ Sanity checks:
 
 Once you've got the right hardware and software:
 
-    git clone git://github.com/castle-project/castle.git
+    git clone git://github.com/gdiscord/castle.git
     git clone git://github.com/devrandom/gitian-builder.git
     mkdir gitian-builder/inputs
     cd gitian-builder/inputs
 
     # Create base images
     cd gitian-builder
-    bin/make-base-vm --suite trusty --arch amd64
+    bin/make-base-vm --suite bionic --arch amd64
     cd ..
 
     # Get inputs (see doc/release-process.md for exact inputs needed and where to get them)
