@@ -8,7 +8,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/castle-project/castle-detached-sigs.git"
+- "url": "https://github.com/gdiscord/castle-detached-sigs.git"
   "dir": "signature"
 files:
 - "castle-osx-unsigned.tar.gz"
