@@ -1,8 +1,9 @@
 ---
 name: "castle-linux-3.1"
 enable_cache: true
+distro: "ubuntu"
 suites:
-- "trusty"
+- "bionic"
 architectures:
 - "amd64"
 packages:
@@ -29,7 +30,7 @@ packages:
 - "python"
 reference_datetime: "2015-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/castle-project/castle.git"
+- "url": "https://github.com/gdiscord/castle.git"
   "dir": "castle"
 files: []
 script: |
