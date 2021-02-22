@@ -1,14 +1,15 @@
 ---
 name: "castle-win-signer"
+distro: "ubuntu"
 suites:
-- "trusty"
+- "bionic"
 architectures:
 - "amd64"
 packages:
 - "libssl-dev"
 - "autoconf"
 remotes:
-- "url": "https://github.com/castle-project/castle-detached-sigs.git"
+- "url": "https://github.com/gdiscord/castle-detached-sigs.git"
   "dir": "signature"
 files:
 - "osslsigncode-1.7.1.tar.gz"
