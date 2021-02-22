@@ -9,15 +9,15 @@ build=false
 setupenv=false
 
 # Systems to build
-linux=true
-windows=true
+#linux=true
+#windows=true
 osx=true
 
 # Other Basic variables
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/castle-project/castle
+url=https://github.com/gdiscord/castle
 proc=2
 mem=2000
 lxc=true
@@ -237,16 +237,16 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/castle-project/gitian.sigs.git
-    git clone https://github.com/castle-project/castle-detached-sigs.git
+    git clone https://github.com/gdiscord/gitian.sigs.git
+    git clone https://github.com/gdiscord/castle-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
     then
         sudo apt-get install lxc
-        bin/make-base-vm --suite trusty --arch amd64 --lxc
+        bin/make-base-vm --suite bionic --arch amd64 --lxc
     else
-        bin/make-base-vm --suite trusty --arch amd64
+        bin/make-base-vm --suite bionic --arch amd64
     fi
     popd
 fi
