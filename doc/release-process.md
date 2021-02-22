@@ -24,10 +24,10 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/castle-project/gitian.sigs.git
-    git clone https://github.com/castle-project/castle-detached-sigs.git
+    git clone https://github.com/gdiscord/gitian.sigs.git
+    git clone https://github.com/gdiscord/castle-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/castle-project/castle.git
+    git clone https://github.com/gdiscord/castle.git
 
 ### CSTL maintainers/release engineers, suggestion for writing release notes
 

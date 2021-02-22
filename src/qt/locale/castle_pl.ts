@@ -1219,9 +1219,9 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/castle-project/castle-project-translations</source>
+https://www.transifex.com/gdiscord/gdiscord-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/castle-project/castle-project-translations </translation>
+https://www.transifex.com/gdiscord/gdiscord-translations </translation>
     </message>
     <message>
         <source>Connect to the CSTL network through a SOCKS5 proxy.</source>

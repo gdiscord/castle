@@ -1,13 +1,13 @@
 Castle Core version 3.0.0 is now available from:
 
-  <https://github.com/castle-project/castle/releases>
+  <https://github.com/gdiscord/castle/releases>
 
 This is a new major version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/castle-project/castle/issues>
+  <https://github.com/gdiscord/castle/issues>
 
 Mandatory Update
 ==============
@@ -132,4 +132,4 @@ Thanks to everyone who directly contributed to this release:
 - amirabrams
 - presstab
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/castle-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/gdiscord-translations/).
