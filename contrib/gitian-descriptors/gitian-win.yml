@@ -1,8 +1,9 @@
 ---
-name: "castle-win-3.1"
+name: "castle-win-2.2.2"
 enable_cache: true
+distro: "ubuntu"
 suites:
-- "trusty"
+- "bionic"
 architectures:
 - "amd64"
 packages:
@@ -22,7 +23,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/castle-project/castle.git"
+- "url": "https://github.com/gdiscord/castle.git"
   "dir": "castle"
 files: []
 script: |
