@@ -1,5 +1,5 @@
 ---
-name: "castle-osx-3.1"
+name: "castle-osx-2.2.2"
 enable_cache: true
 suites:
 - "trusty"
@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/castle-project/castle.git"
+- "url": "https://github.com/gdiscord/castle.git"
   "dir": "castle"
 files:
 - "MacOSX10.11.sdk.tar.gz"
