@@ -2,7 +2,7 @@
 name: "castle-osx-2.2.2"
 enable_cache: true
 suites:
-- "xenial"
+- "bionic"
 architectures:
 - "amd64"
 packages:
