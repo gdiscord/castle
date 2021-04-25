@@ -26,7 +26,7 @@ Together we will grow!"
 <tr><td>Facebook:</td><td> https://www.facebook.com/groups/growproject/</td></tr>
 <tr><td>Telegram:</td><td> https://t.me/GROWcoinOfficial</td></tr>
 <tr><td>Bitcointalk ANN:</td><td> TBD </td></tr>
-<tr><td>Github:</td><td> https://github.com/growaleaf/Grow </td></tr>
+<tr><td>Github:</td><td> https://github.com/gdiscord/castle </td></tr>
 <tr><td>CoinMarketCap</td><td>TBD </td></tr>
 </table>
 
